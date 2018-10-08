@@ -115,8 +115,7 @@ class Categorie_phenotypique():
     array_final = pandas.concat([self.t1.rename(n1),self.t2.rename(n2),self.t3.rename(n3)],axis =1, sort =True)
     return array_final
   
-  
-
+ 
 
 
 class Categorie_phenotypique2():
